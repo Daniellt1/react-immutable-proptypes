@@ -8,7 +8,8 @@
     "test": "./scripts/test",
     "test-cov": "./scripts/test-cov",
     "prepublish": "npm run build",
-    "lint": "./node_modules/.bin/eslint ./src"
+    "lint": "./node_modules/.bin/eslint ./src",
+    "preinstall": "npm run build"
   },
   "repository": {
     "type": "git",
